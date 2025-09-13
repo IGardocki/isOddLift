@@ -1,0 +1,26 @@
+{
+  "name": "isoddlift",
+  "version": "1.0.0",
+  "description": "Returns true unless the lift is squat or deadlift",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "lift",
+    "fitness",
+    "gym",
+    "fun",
+    "odd",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "undici-types": "^7.16.0"
+  }
+}
